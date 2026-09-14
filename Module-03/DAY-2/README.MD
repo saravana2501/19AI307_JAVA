@@ -24,20 +24,28 @@ To develop a java program use append() method concatenates the given argument wi
  ```
 /*
 Program to implement a String Buffer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SARAVANA KUMAR S
+RegisterNumber:  212224220090
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+import java.util.*;
+public class StringBufferExample3{  
+    public static void main(String args[]){ 
+        Scanner sc=new Scanner(System.in);
+        String str1=sc.nextLine();
+        StringBuffer sb=new StringBuffer(str1);  
+        sb.replace(1,3,"Java");  
+        System.out.println(sb); 
+}  
+}  
+```
 
 ## OUTPUT:
+
+![Screenshot 2025-04-30 160051](https://github.com/user-attachments/assets/84bc5f5f-9152-4730-8676-1e252986726f)
 
 
 
