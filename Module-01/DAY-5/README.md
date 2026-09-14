@@ -22,23 +22,32 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by:SARAVANA KUMAR S
+RegisterNumber:  212224220090
 */
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args){
+int num=7;
+find_Oddeven(num);
+}
 
-
-
-
-
-
-
+static void find_Oddeven(int num){
+  if(num%2==0) 
+      System.out.println(num+" is even"); 
+  else 
+      System.out.println(num+" is odd");
+ }
+}
+```
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/8f7cdb15-9d19-4cc3-8d20-2c0a25af9899)
 
 
 
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
-
